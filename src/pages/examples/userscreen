@@ -1,0 +1,44 @@
+import React from "react";
+import { Card, Table } from "@themesberg/react-bootstrap";
+import { Link } from "react-router-dom";
+export default ({ history }) => {
+  return (
+    <>
+      <Card border="light" className="shadow-sm mb-4">
+        <Card.Body className="pb-3">
+          <Table
+            responsive
+            className="table-centered table-responsive table-nowrap rounded mb-0"
+          >
+            <thead className="thead-light">
+              <tr>
+                <th className="border-0">#</th>
+                <th className="border-0">Name</th>
+                <th className="border-0">Email</th>
+                <th className="border-0">User Type</th>
+                <th className="border-0"></th>
+                <th className="border-0"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <td>1</td>
+              <td>name</td>
+              <td>same@example.com</td>
+              <td>admin</td>
+              <td>
+              <Link>
+                  <button>Edit User</button>
+                </Link>
+              </td>
+              <td>
+                <Link to='/permissions'>
+                  <button>Permissions</button>
+                </Link>
+              </td>
+            </tbody>
+          </Table>
+        </Card.Body>
+      </Card>
+    </>
+  );
+};
