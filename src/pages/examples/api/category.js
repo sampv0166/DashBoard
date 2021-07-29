@@ -18,7 +18,7 @@ export const addCategory = ({ values }) => {
 
 export const getCategory = async () => {
   try {
-    const data = await axios.get('/api/v2/admin/getcategory');
+    const data = await axios.get('https://www.khaymatapi.mvp-apps.ae/api/v2/admin/shop');
     return data;
   } catch (e) {
     console.log(e);

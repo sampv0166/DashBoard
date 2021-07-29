@@ -44,7 +44,7 @@ export const deleteProduct = (id) => {
 
 export const getProduct = async () => {
   try {
-    const data = await axios.get('/api/v2/admin/getproducts');
+    const data = await axios.get('https://www.khaymatapi.mvp-apps.ae/api/v2/public/product');
     return data;
   } catch (e) {
     console.log(e);

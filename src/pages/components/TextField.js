@@ -7,7 +7,7 @@ const TextField = ({ label, ...props }) => {
     <div className="mb-3">
       <label htmlFor={field.name}>{label}</label>
       <input
-        className={`form-control shadow-none rounded ${
+        className={`form-control shadow-none rounded  ${
           meta.touched && meta.error && 'is-invalid '
         }`}
         autoComplete="off"

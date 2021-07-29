@@ -1,25 +1,28 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faUnlockAlt } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect, useState } from "react";
+import { Redirect, useLocation } from "react-router-dom";
 
-import {
-  Col,
-  Row,
-  Form,
-  Card,
-  Button,
-  FormCheck,
-  Container,
-  InputGroup,
-} from "@themesberg/react-bootstrap";
+import { Col, Row, Card, Button, Container } from "@themesberg/react-bootstrap";
 import { Link } from "react-router-dom";
 import BgImage from "../../assets/img/illustrations/signin.svg";
 import * as Yup from "yup";
 import { userLogin } from "./api/authentication";
-import { Formik } from "formik";
+import { Formik, Form } from "formik";
+import TextField from "../components/TextField";
+//import useUserInfo from "./useToken";
+
+const getUser = () => {
+  const userInfoFromStorage = localStorage.getItem("userInfo")
+    ? JSON.parse(localStorage.getItem("userInfo"))
+    : null;
+  return userInfoFromStorage;
+};
 
 export default ({ location, history, setUser }) => {
   const [currentUser, setCurrentUser] = useState([]);
+
+  const redirect = location.search ? location.search.split("=")[1] : "/";
+
+
 
   const validate = Yup.object({
     email: Yup.string().email("Email is invalid").required("Email is required"),
@@ -30,8 +33,14 @@ export default ({ location, history, setUser }) => {
 
   const handleSubmit = async (values) => {
     const userinfo = await userLogin(values.email, values.password);
+
     setUser(userinfo);
-    setCurrentUser(userinfo);
+
+    setCurrentUser(getUser);
+
+    if (currentUser && currentUser.success) {
+      history.push(redirect)
+    }
   };
 
   return (
@@ -48,6 +57,7 @@ export default ({ location, history, setUser }) => {
     >
       {(formik) => (
         <main>
+          {console.log(formik.values)}
           <section className="d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
             <Container>
               <p className="text-center"></p>
@@ -64,52 +74,13 @@ export default ({ location, history, setUser }) => {
                       <h3 className="mb-0">Sign in</h3>
                     </div>
                     <Form className="mt-4">
-                      <Form.Group id="email" className="mb-4">
-                        <Form.Label>Your Email</Form.Label>
-                        <InputGroup>
-                          <InputGroup.Text>
-                            <FontAwesomeIcon icon={faEnvelope} />
-                          </InputGroup.Text>
-                          <Form.Control
-                            autoFocus
-                            required
-                            type="email"
-                            placeholder="example@company.com"
-                          />
-                        </InputGroup>
-                      </Form.Group>
-                      <Form.Group>
-                        <Form.Group id="password" className="mb-4">
-                          <Form.Label>Your Password</Form.Label>
-                          <InputGroup>
-                            <InputGroup.Text>
-                              <FontAwesomeIcon icon={faUnlockAlt} />
-                            </InputGroup.Text>
-                            <Form.Control
-                              required
-                              type="password"
-                              placeholder="Password"
-                            />
-                          </InputGroup>
-                        </Form.Group>
-                        <div className="d-flex justify-content-between align-items-center mb-4">
-                          <Form.Check type="checkbox">
-                            <FormCheck.Input
-                              id="defaultCheck5"
-                              className="me-2"
-                            />
-                            <FormCheck.Label
-                              htmlFor="defaultCheck5"
-                              className="mb-0"
-                            >
-                              Remember me
-                            </FormCheck.Label>
-                          </Form.Check>
-                          <Card.Link className="small text-end">
-                            Lost password?
-                          </Card.Link>
-                        </div>
-                      </Form.Group>
+                      <TextField label="Email" name="email" type="email" />
+                      <TextField
+                        label="password"
+                        name="password"
+                        type="password"
+                      />
+
                       <Button variant="primary" type="submit" className="w-100">
                         Sign in
                       </Button>
@@ -118,7 +89,7 @@ export default ({ location, history, setUser }) => {
                     <div className="d-flex justify-content-center align-items-center mt-4">
                       <span className="fw-normal">
                         Not registered?
-                        <Card.Link as={Link} to="signin" className="fw-bold">
+                        <Card.Link as={Link} to="register" className="fw-bold">
                           {` Create account `}
                         </Card.Link>
                       </span>

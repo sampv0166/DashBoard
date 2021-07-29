@@ -1,0 +1,660 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 16,
+            "name_ar": "BAPE Shark Slim Sweat Pants Navy ",
+            "name_en": "BAPE Shark Slim Sweat Pants Navy",
+            "description_ar": "BAPE Shark Slim Sweat Pants Navy Arabic",
+            "description_en": "BAPE Shark Slim Sweat Pants Navy",
+            "category_id": null,
+            "subcategory_id": null,
+            "shop_id": null,
+            "bestseller": false,
+            "special": false,
+            "name": "BAPE Shark Slim Sweat Pants Navy",
+            "description": "BAPE Shark Slim Sweat Pants Navy",
+            "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/rkU4d8rVXbtLOgaa6IjOfmWa5HG4e2Ga2lgcLnHq.jpg",
+            "shop": null,
+            "variations": [
+                {
+                    "id": 24,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "7",
+                    "size_value": "Small",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                },
+                {
+                    "id": 25,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "4",
+                    "size_value": "Medium",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                },
+                {
+                    "id": 26,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "39",
+                    "hasoffer": true,
+                    "stocks": "0",
+                    "size_value": "Large",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                },
+                {
+                    "id": 27,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "1",
+                    "size_value": "XL",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                },
+                {
+                    "id": 28,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "75",
+                    "hasoffer": true,
+                    "stocks": "2",
+                    "size_value": "XXL",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                },
+                {
+                    "id": 29,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "0",
+                    "size_value": "XS",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                },
+                {
+                    "id": 30,
+                    "product_id": 16,
+                    "price": 89,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "0",
+                    "size_value": "XXS",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/GnYJp7lC7oOOrtLDlWZquxHrbR6A0Ej2WnWt0K0J.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/JiwkMvqvLjcT72UrRHTXBRxigWw63bIjBI8hGcJ2.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VIaq3QFGKRqr5WspOJYjKQtkglzRUx9vgdfJxJi5.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name_ar": "FEAR OF GOD ESSENTIALS 3D Silicon Applique Pullover Hoodie",
+            "name_en": "FEAR OF GOD ESSENTIALS 3D Silicon Applique Pullover Hoodie Arabic",
+            "description_ar": "FEAR OF GOD ESSENTIALS 3D Silicon Applique Pullover Hoodie Arabic",
+            "description_en": "FEAR OF GOD ESSENTIALS 3D Silicon Applique Pullover Hoodie",
+            "category_id": null,
+            "subcategory_id": null,
+            "shop_id": null,
+            "bestseller": false,
+            "special": false,
+            "name": "FEAR OF GOD ESSENTIALS 3D Silicon Applique Pullover Hoodie Arabic",
+            "description": "FEAR OF GOD ESSENTIALS 3D Silicon Applique Pullover Hoodie",
+            "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/tH28EjlEhheeM4n9HSlYr1mZidyz3JIJaocbQgBD.jpg",
+            "shop": null,
+            "variations": [
+                {
+                    "id": 19,
+                    "product_id": 15,
+                    "price": 69,
+                    "offerprice": "45",
+                    "hasoffer": true,
+                    "stocks": "9",
+                    "size_value": null,
+                    "color_value": "#D7D8C8",
+                    "color_name": "Alfalia Sage",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/8gIKAKK8OPjXnqXU0nUOEt6yljePD6KuPXtgR4Yh.jpg"
+                    ]
+                },
+                {
+                    "id": 20,
+                    "product_id": 15,
+                    "price": 69,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "0",
+                    "size_value": null,
+                    "color_value": "#D1CCC9",
+                    "color_name": "Oatmeal",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/mhbVLxAgWN3US7zlg4huFyIEUJ3xxkKd9ndRiXAZ.jpg"
+                    ]
+                },
+                {
+                    "id": 21,
+                    "product_id": 15,
+                    "price": 79,
+                    "offerprice": "70",
+                    "hasoffer": true,
+                    "stocks": "3",
+                    "size_value": null,
+                    "color_value": "#A0968C",
+                    "color_name": "Taupe",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/I2DP271ororBStAoEiT2Rfgu83dEnVEAWbo7RsE0.jpg"
+                    ]
+                },
+                {
+                    "id": 22,
+                    "product_id": 15,
+                    "price": 89,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "2",
+                    "size_value": null,
+                    "color_value": "#ECEDEF",
+                    "color_name": "White",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/Rg4qjCfPvTMPIpUTR0SXgWZ0NGXzecOvG3gbzuoq.jpg"
+                    ]
+                },
+                {
+                    "id": 23,
+                    "product_id": 15,
+                    "price": 89,
+                    "offerprice": "49",
+                    "hasoffer": true,
+                    "stocks": "1",
+                    "size_value": null,
+                    "color_value": "#1F1F21",
+                    "color_name": "Black",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/nSVfukgo232XE0uzuWVmQs4ZSKBeVyB4E3JNigsb.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name_ar": "Juice Wrld x Vlone Butterfly T-Shirt ",
+            "name_en": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "description_ar": "Juice Wrld x Vlone Butterfly T-Shirt D(No C Or Size) Arabic",
+            "description_en": "Juice Wrld x Vlone Butterfly T-Shirt D(No C Or Size)",
+            "category_id": 1,
+            "subcategory_id": null,
+            "shop_id": null,
+            "bestseller": false,
+            "special": false,
+            "name": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "description": "Juice Wrld x Vlone Butterfly T-Shirt D(No C Or Size)",
+            "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VEtmkn4GTi1McgjW83IxZrH5phRitFqcYQgs61oi.jpg",
+            "shop": null,
+            "variations": [
+                {
+                    "id": 18,
+                    "product_id": 14,
+                    "price": 110,
+                    "offerprice": "99",
+                    "hasoffer": true,
+                    "stocks": "1",
+                    "size_value": "",
+                    "color_value": "",
+                    "color_name": "",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/2g0V50Qk79nTXcZQWXRSgGXm92awuHYX4Zw1YAWt.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VDAYkpccbe4RhQVkFX7j1QkpjAeL4ppIAKpEFZlu.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name_ar": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "name_en": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "description_ar": "Juice Wrld x Vlone Butterfly T-Shirt D(Both Size And Color) Arabic",
+            "description_en": "Juice Wrld x Vlone Butterfly T-Shirt D(Both Size And Color",
+            "category_id": 1,
+            "subcategory_id": null,
+            "shop_id": null,
+            "bestseller": false,
+            "special": false,
+            "name": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "description": "Juice Wrld x Vlone Butterfly T-Shirt D(Both Size And Color",
+            "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VEtmkn4GTi1McgjW83IxZrH5phRitFqcYQgs61oi.jpg",
+            "shop": null,
+            "variations": [
+                {
+                    "id": 11,
+                    "product_id": 12,
+                    "price": 105,
+                    "offerprice": "89",
+                    "hasoffer": true,
+                    "stocks": "1",
+                    "size_value": "XXL",
+                    "color_value": "#e3e3e6",
+                    "color_name": "White",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/baZGNYItSjGZCd4HSNADLds317nrCkWFxcsgWey1.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/rEQfI380zzsqOUwFkJqK1wSMojHqpWdMGTiL5QDg.jpg"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "product_id": 12,
+                    "price": 99,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "4",
+                    "size_value": "XL",
+                    "color_value": "#26272e",
+                    "color_name": "Black",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/AY4RO7HElVqZscO0iQo3Xjl1nCot5uGNT8iVqUWY.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/Otedfa31CXmQqQRYzlG6eBmLyxz9dmGj1Ri9Wp75.jpg"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "product_id": 12,
+                    "price": 99,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "1",
+                    "size_value": "large",
+                    "color_value": "#26272e",
+                    "color_name": "Black",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/2g0V50Qk79nTXcZQWXRSgGXm92awuHYX4Zw1YAWt.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VDAYkpccbe4RhQVkFX7j1QkpjAeL4ppIAKpEFZlu.jpg"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "product_id": 12,
+                    "price": 79,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "0",
+                    "size_value": "small",
+                    "color_value": "#3141d4",
+                    "color_name": "Blue",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/0wmMQRmLr4TiPQhuteXu9f10drXkQXqoBq0LzooU.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/eVL0OLhrJdYldfGT0wHzZTvZ3E3HxmsuSIdQ42Lh.jpg"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "product_id": 12,
+                    "price": 89,
+                    "offerprice": "59",
+                    "hasoffer": true,
+                    "stocks": "2",
+                    "size_value": "medium",
+                    "color_value": "#3141d4",
+                    "color_name": "Blue",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/Y8FEfisS1NgBt402LH5qnpBW4J0o0lokw2k8bdKF.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/d9gZO1mR3GtcbOGUegTPq0ne5vzCK3ysN4jTjW3T.jpg"
+                    ]
+                },
+                {
+                    "id": 12,
+                    "product_id": 12,
+                    "price": 110,
+                    "offerprice": "99",
+                    "hasoffer": true,
+                    "stocks": "0",
+                    "size_value": "XXL",
+                    "color_value": "#26272e",
+                    "color_name": "Black",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/2g0V50Qk79nTXcZQWXRSgGXm92awuHYX4Zw1YAWt.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VDAYkpccbe4RhQVkFX7j1QkpjAeL4ppIAKpEFZlu.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name_ar": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "name_en": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "description_ar": "Juice Wrld x Vlone Butterfly T-Shirt D (Size Only) Arabic",
+            "description_en": "Juice Wrld x Vlone Butterfly T-Shirt D (Size Only)",
+            "category_id": 1,
+            "subcategory_id": null,
+            "shop_id": null,
+            "bestseller": false,
+            "special": false,
+            "name": "Juice Wrld x Vlone Butterfly T-Shirt",
+            "description": "Juice Wrld x Vlone Butterfly T-Shirt D (Size Only)",
+            "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VEtmkn4GTi1McgjW83IxZrH5phRitFqcYQgs61oi.jpg",
+            "shop": null,
+            "variations": [
+                {
+                    "id": 13,
+                    "product_id": 13,
+                    "price": 99,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "4",
+                    "size_value": "XL",
+                    "color_value": "",
+                    "color_name": "",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/AY4RO7HElVqZscO0iQo3Xjl1nCot5uGNT8iVqUWY.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/Otedfa31CXmQqQRYzlG6eBmLyxz9dmGj1Ri9Wp75.jpg"
+                    ]
+                },
+                {
+                    "id": 14,
+                    "product_id": 13,
+                    "price": 99,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "1",
+                    "size_value": "large",
+                    "color_value": "",
+                    "color_name": "",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/2g0V50Qk79nTXcZQWXRSgGXm92awuHYX4Zw1YAWt.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VDAYkpccbe4RhQVkFX7j1QkpjAeL4ppIAKpEFZlu.jpg"
+                    ]
+                },
+                {
+                    "id": 15,
+                    "product_id": 13,
+                    "price": 79,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "0",
+                    "size_value": "small",
+                    "color_value": null,
+                    "color_name": null,
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/0wmMQRmLr4TiPQhuteXu9f10drXkQXqoBq0LzooU.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/eVL0OLhrJdYldfGT0wHzZTvZ3E3HxmsuSIdQ42Lh.jpg"
+                    ]
+                },
+                {
+                    "id": 16,
+                    "product_id": 13,
+                    "price": 89,
+                    "offerprice": "59",
+                    "hasoffer": true,
+                    "stocks": "2",
+                    "size_value": "medium",
+                    "color_value": "",
+                    "color_name": "",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/Y8FEfisS1NgBt402LH5qnpBW4J0o0lokw2k8bdKF.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/d9gZO1mR3GtcbOGUegTPq0ne5vzCK3ysN4jTjW3T.jpg"
+                    ]
+                },
+                {
+                    "id": 17,
+                    "product_id": 13,
+                    "price": 110,
+                    "offerprice": "99",
+                    "hasoffer": true,
+                    "stocks": "0",
+                    "size_value": "XXL",
+                    "color_value": "",
+                    "color_name": "",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/2g0V50Qk79nTXcZQWXRSgGXm92awuHYX4Zw1YAWt.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/VDAYkpccbe4RhQVkFX7j1QkpjAeL4ppIAKpEFZlu.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name_ar": "Pop Smoke x Vlone The Woo T-Shirt",
+            "name_en": "Pop Smoke x Vlone The Woo T-Shirt",
+            "description_ar": "Pop Smoke x Vlone The Woo T-Shirt (Color Only) Arabic",
+            "description_en": "Pop Smoke x Vlone The Woo T-Shirt (Color Only)",
+            "category_id": 1,
+            "subcategory_id": null,
+            "shop_id": 1,
+            "bestseller": false,
+            "special": false,
+            "name": "Pop Smoke x Vlone The Woo T-Shirt",
+            "description": "Pop Smoke x Vlone The Woo T-Shirt (Color Only)",
+            "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/IRf5CTuTy7bpbj0XZObxXlBiGPGf4bpDLTW6qoZF.jpg",
+            "shop": {
+                "id": 1,
+                "shop_name_ar": "معينة ستوديو بطيق",
+                "shop_name_en": "Mint Studio Boutique",
+                "shop_trn": "TRN 101234567890003",
+                "shop_mob": "+971504463455",
+                "shop_email": "mintstudio@mvpApps.ae",
+                "shop_website": "https://www.mvp-apps.ae/",
+                "open": false,
+                "booth": null,
+                "status": true,
+                "featured": "0",
+                "banner": "shops/shop1_banner.jpg",
+                "shop_name": "Mint Studio Boutique",
+                "coverimage": "https://www.khaymatapi.mvp-apps.ae/storage/cdn/NrZGg0zk2jMiUkKOcQhS2zBkhzkigPrpDImBvWIU.png"
+            },
+            "variations": [
+                {
+                    "id": 5,
+                    "product_id": 1,
+                    "price": 135,
+                    "offerprice": "0",
+                    "hasoffer": false,
+                    "stocks": "4",
+                    "size_value": null,
+                    "color_value": "#000000",
+                    "color_name": "Black",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/q7TAi5vbtwhzH99FdSBDTKJbaGa6bTSsLhAPbk3r.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/FL1oN6TBUTNWfZE0nnPrF7gidnACAuej5fqc3S9B.jpg"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "product_id": 1,
+                    "price": 135,
+                    "offerprice": "99",
+                    "hasoffer": true,
+                    "stocks": "3",
+                    "size_value": null,
+                    "color_value": "#FAFBF5",
+                    "color_name": "White",
+                    "sku": null,
+                    "keywords": null,
+                    "bio_ar": null,
+                    "bio_en": null,
+                    "fields": [],
+                    "images": [
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/LfBnS8MH97kw4WqFZOr2e6aJJH7sbYO181ZkZDmt.jpg",
+                        "https://www.khaymatapi.mvp-apps.ae/storage/cdn/ZmweCKzSlLgLYxxORF5BQmA4gA4zsDm6LocH48SC.jpg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "first_page_url": "https://www.khaymatapi.mvp-apps.ae/api/v2/public/product?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "https://www.khaymatapi.mvp-apps.ae/api/v2/public/product?page=1",
+    "next_page_url": null,
+    "path": "https://www.khaymatapi.mvp-apps.ae/api/v2/public/product",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 6,
+    "total": 6
+}

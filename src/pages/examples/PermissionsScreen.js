@@ -9,30 +9,6 @@ import { Formik } from "formik";
 const PermissionsScreen = ({ user, match }) => {
   const [permissions, setPermissions] = useState([]);
 
-  const [usersdata, setUsersData] = useState([]);
-  const [productPermissions, setProductPermissions] = useState([
-    { key: "add", value: "add" },
-    { key: "update", value: "update" },
-    { key: "delete", value: "delete" },
-  ]);
-  const [permissionPermissions, setPermissionPermissions] = useState([
-    { key: "add", value: "add" },
-    { key: "update", value: "update" },
-    { key: "delete", value: "delete" },
-  ]);
-  const [categoryPermissions, setCategoryPermissions] = useState([
-    { key: "add", value: "add" },
-    { key: "update", value: "update" },
-    { key: "delete", value: "delete" },
-  ]);
-  const [shopPermissions, setShopPermissions] = useState([
-    { key: "add", value: "add" },
-    { key: "update", value: "update" },
-    { key: "delete", value: "delete" },
-  ]);
-
-
-  
 
   const userid = match.params.id;
 

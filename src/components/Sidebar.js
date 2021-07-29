@@ -22,9 +22,11 @@ import {
   Navbar,
 } from "@themesberg/react-bootstrap";
 import { Link } from "react-router-dom";
-import { Routes } from "../routes";
 import ReactHero from "../assets/img/technologies/react-hero-logo.svg";
 import ProfilePicture from "../assets/img/team/profile-picture-3.jpg";
+const logoutHandler = () => {
+  localStorage.removeItem("userInfo");
+};
 
 export default (props = {}) => {
   const location = useLocation();
@@ -121,7 +123,7 @@ export default (props = {}) => {
         variant="dark"
         className="navbar-theme-primary px-4 d-md-none"
       >
-        <Navbar.Brand className="me-lg-5" as={Link}>
+        <Navbar.Brand className="me-lg-5" as={Link} to="">
           <Image src={ReactHero} className="navbar-brand-light" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -148,7 +150,7 @@ export default (props = {}) => {
                 <div className="d-block">
                   <h6>Hi, Jane</h6>
                   <Button
-                    as={Link}
+                    onClick={logoutHandler}
                     variant="secondary"
                     size="xs"
                     className="text-dark"
@@ -171,22 +173,32 @@ export default (props = {}) => {
               <NavItem
                 title="Overview"
                 icon={<FontAwesomeIcon icon="fa-solid fa-users" />}
+                link="/"
               />
-               <NavItem title="Store" icon={faStore} />
+              <NavItem title="Store" icon={faStore} />
 
-               <CollapsableNavItem
+              <CollapsableNavItem
                 eventKey="tables/"
                 title="Manage Users"
                 icon={faUsers}
               >
-                <NavItem title="User List" link='/users'/>
-                <NavItem title="Add New User" link='/addnewuser' />
-
-
+                <NavItem title="User List" link="/users" />
+                <NavItem title="Add New User" link="/addnewuser" />
               </CollapsableNavItem>
 
-              <NavItem title="Products" link='/addnewproduct' icon={faBox} />
-             
+              <CollapsableNavItem
+                eventKey="tables/"
+                title="Products"
+                icon={faTable}
+              >
+                <NavItem title="Products List" link="/products" icon={faBox} />
+                <NavItem
+                  title="New Product"
+                  link="/addnewproduct"
+                  icon={faBox}
+                />
+              </CollapsableNavItem>
+
               <CollapsableNavItem
                 eventKey="tables/"
                 title="Product Categories"
